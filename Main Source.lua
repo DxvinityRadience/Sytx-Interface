@@ -22,7 +22,7 @@ local uicorner = Instance.new("UICorner", frame)
 uicorner.CornerRadius = UDim.new(0, 12)
 
 local title = Instance.new("TextLabel", frame)
-title.Text = "AV ON TOP\nSytx Shutdown\nAV ON TOP"
+title.Text = "AV ON TOP\nSytx Shutdown\nAV ON TOP. join new server"
 title.TextColor3 = Color3.fromRGB(235, 235, 235)
 title.Font = Enum.Font.Gotham
 title.TextSize = 16
@@ -35,10 +35,10 @@ title.TextYAlignment = Enum.TextYAlignment.Top
 local buttonNames = {"Copy Discord", "Copy New Script", "Close"}
 local actions = {
     function()
-        setclipboard("https://discord.gg/UMu3nTV3Qn")
+        setclipboard("https://discord.gg/ujNaJUsdUh")
     end,
     function()
-        setclipboard("loadstring(game:HttpGet('https://raw.githubusercontent.com/DxvinityRadience/Sytx-Interface/refs/heads/main/Main%20Source.lua'))()")
+        setclipboard("https://discord.gg/ujNaJUsdUh")
     end,
     function() end
 }
